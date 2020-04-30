@@ -53,6 +53,9 @@ Once you have the SADP tool up and running, note down the IP
 of one of the cameras that is running firmware 5.4.0 or lower.
 
 ### Use the tool
+> You need Node.js installed to run this... you can get it
+  at https://nodejs.org
+
 Open the terminal app and run:
 
 ```bash
