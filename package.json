@@ -1,15 +1,19 @@
 {
   "name": "irrelon-hikvision-password-extractor",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Extract and decrypt Hikvision passwords",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rob Evans - Irrelon Software Limited",
   "license": "MIT",
-  "dependencies": {
-    "cyberchef": "^9.20.3",
-    "request": "^2.88.2"
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "volta": {
+    "node": "23.11.1"
   }
 }
